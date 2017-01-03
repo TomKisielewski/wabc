@@ -1,0 +1,38 @@
+/*****************************************************************
+Import all needed 3rd party sass files plus your own style and variables
+1. wabc_underscores.scss
+--------------------------------------
+2. theme/theme_variables.scss // Overwriting Bootstrap variables and for own variables <-- ADD YOUR VARIABLES HERE
+--------------------------------------
+3. bootstrap/wabc_bootstrap.scss // adding bootstrap <- Dont edit this files!
+--------------------------------------
+4. wabc/wabc.scss // Some basic wabc styles. Helps to combine Bootsrap and _s theme and provides some basic styleing for additonal functions <- Dont edit this files!
+--------------------------------------
+5. font-awesome/wabc_font-awesome.scss <- Dont edit this files! If you don´t need/want Font Awesome support comment out this line
+--------------------------------------
+
+
+
+          *
+          *
+          *
+       *******
+        *****
+         ***
+          *
+
+
+
+// Any additional imported files //
+6. theme/theme.scss"; // <-- ADD YOUR STYLES HERE
+***************************************************************** */
+
+@import "underscores/wabc_underscores";
+@import "theme/theme_variables";
+@import "bootstrap/wabc_bootstrap";
+@import "wabc/wabc";
+@import "font-awesome/wabc_font-awesome";
+
+// Any additional imported files //
+@import "theme/theme";
+@import "theme/extensions";

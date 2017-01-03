@@ -1,0 +1,56 @@
+// This is for styling third parties extensions which are not built in the theme
+
+// FLICKR BADGES WIDGETS
+.widget_anyusertwitterfeed{
+
+  #wds-container{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    #wds{
+      color: #FFFFFF;
+      font-size: 14px;
+      a{
+        font-variant: small-caps;
+        color: #FFFFFF;
+      }
+      #wds-header{
+        a{
+          font-variant: small-caps;
+          color: #FFFFFF;
+          span{
+            &.wds-display-name{
+              font-variant: small-caps;
+              color: #FFFFFF;
+              font-size: 14px;
+
+            }
+            &.wds-screen-name{
+              font-variant: small-caps;
+              color: inherit;
+              font-size: 14px;
+            }          }
+        }
+
+      }
+      #wds-tweets{
+        .wds-tweet-container{
+          .wds-tweet{
+
+          }
+          .wds-tweet-data{
+            a{
+              color: #FFFFFF;
+              font-variant: small-caps;
+              font-size: 14px;
+            }
+          }
+        }
+
+      }
+    }
+    #wds-copyright{
+
+    }
+  }
+}

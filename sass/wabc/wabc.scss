@@ -1,0 +1,20 @@
+// If you use the Bootstrap .navbar-fixed-top class on your navbar you need this
+body { padding-top: 50px; }
+
+// Some basic padding for all wrappers
+.wrapper {
+  padding:$grid-gutter-width 0;
+}
+
+// Reset hero wrapper padding to 0
+.wrapper#wrapper-hero {
+  padding:0px;
+}
+
+// Adding basic Wordpress classes to pass the Wordpress.org tests
+.sticky, .gallery-caption, .bypostauthor {
+font-size:inherit;
+}
+
+// Separate sticky wrapper from main content
+.wrapper#wrapper-sticky {border-bottom:1px solid $gray-lighter;}
